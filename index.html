@@ -1,364 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Welcome , Explore my work in web development and entrepreneurship.">
-    <meta name="keywords" content="Arsif, Arsif Akhtar, Web Developer, MERN Stack, JavaScript, Portfolio, arsif">
-    <meta name="author" content="Arsif Akhtar"> 
-    
-    <meta property="og:title" content="Arsif Akhtar | Web Developer & Entrepreneur">
-    <meta property="og:description" content="Explore my work in web development and entrepreneurship.">
-    <meta property="og:image" content="https://arsif.netlify.app/assets/img/hero/arsifnew.jpg">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>personal portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<link rel="stylesheet" href="blog1.css">
+<body>
+	<header>
+		<h1 id="ars">ARSIF AKHTAR</h1>
+		<nav id="navv">
+			<a href="#ars" class="nav1">HOME</a>
+			<a href="#slill" class="nav1">SKILL</a>
+			<a href="#sec3" class="nav1">EDUCATION</a>
+			<a href="#social221" class="nav1">CONTACT</a>
+		</nav>
+	</header>
+	<section id="sec1">
+		<img src="C:\Users\user\Pictures\IMG_20241229_204047.jpg" id="img1">
+		<div id="abot">
+			<h1> Hi, It's <span class="nam">ARSIF</span> </h1>
+			<h2> A <span class="nam"> FRONTEND DEVELOPER</span></h2>
+			<p>I am a passionate frontend developer with a strong foundation in creating visually appealing and user-friendly web interfaces.  I am continuously expanding my technical expertise and working toward becoming a skilled full-stack developer.I enjoy transforming creative ideas into functional designs. I am enthusiastic about learning new technologies, improving my coding skills, and solving complex problems.Currently, I am focused on building projects that showcase my abilities and exploring backend technologies to complete the full-stack development spectrum.
+</p>
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Arsif Akhtar | Web Developer & Entrepreneur">
-    <meta name="twitter:description" content="Explore my work in web development and entrepreneurship." />
-<meta name="twitter:image" content="https://arsif.netlify.app/assets/img/hero/arsifnew.jpg">
-<meta name="twitter:site" content="@ArsifAkhtar">
 
+		</div>
 
+	</section>
+	<div id="social">
+		<a href="https://www.linkedin.com/in/arsif/" class="social1"><i class="fa-brands fa-linkedin"></i></a>
+		<a href="https://www.instagram.com/arsif__/" class="social1"><i class="fa-brands fa-instagram"></i></a>
+		<a href="https://x.com/ArsifAkhtar?t=Niihmp2bTGvHh8y-37iOvg&s=09 " class="social1"><i class="fa-brands fa-x-twitter"></i></a>
+	</div><br><br>
+	<h1 id="slill">SKILL</h1>
+	
 
-    
-    <title>gift 2 U | Products</title>
+	<section id="sec2">
+		
+		
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Font Awesome (Icons) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-
-    <link rel="apple-touch-icon" href="logo.jpg" />
-    <link rel="shortcut icon" type="image/png" href="logo.jpg" />
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-        background-color: #f4f4f4;
-        padding-top: 80px;
-      }
-
-      /* Navbar */
-      .navbar {
-        background: white;
-        padding: 15px 0;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-      }
-
-      .nav-links a {
-        text-decoration: none;
-        color: black;
-        font-weight: 500;
-        margin-left: 15px;
-        transition: color 0.3s ease-in-out;
-      }
-
-      .nav-links a:hover {
-        color: #ff7e5f;
-      }
-
-      /* Product Section */
-      .product-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-
-      .product-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 20px;
-      }
-
-      .product-card {
-        background: white;
-        text-align: center;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease-in-out;
-      }
-
-      .product-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-      }
-
-      .product-card img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 12px;
-      }
-
-      .product-card h3 {
-        margin: 15px 0;
-        font-size: 1.2rem;
-        font-weight: bold;
-      }
-
-      .product-card p {
-        color: #555;
-        font-size: 0.9rem;
-      }
-
-      /* WhatsApp Button */
-      .product-card .btn {
-        background: #25d366;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 10px;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
-      }
-
-      .product-card .btn:hover {
-        background: #1ebe5d;
-        transform: scale(1.05);
-        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.25);
-      }
-
-      /* Footer */
-      footer {
-        background-color: #222;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        font-size: 14px;
-        margin-top: 40px;
-      }
-      .product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  .product-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .product-card {
-    padding: 15px;
-  }
-
-  .product-card img {
-    height: 180px; /* Reduce image height */
-  }
-
-  .product-card h3 {
-    font-size: 1rem;
-    margin: 10px 0;
-  }
-
-  .product-card p {
-    font-size: 0.8rem;
-  }
-
-  .product-card .btn {
-    padding: 8px 12px;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .product-card img {
-    height: 150px; /* Further reduce image height */
-  }
-
-  .product-card {
-    padding: 10px;
-  }
-}
-
+		<p id="skill1">I have a strong command of HTML, CSS, and JavaScript, which form the foundation of my frontend development expertise.<br>
+		 My skills include creating responsive designs that adapt seamlessly across devices, ensuring an optimal user experience. I am proficient in crafting visually appealing and functional interfaces while maintaining cross-browser compatibility.<br>
+		  Additionally, I excel in debugging and problem-solving, enabling me to address challenges efficiently and deliver high-quality solutions.
+		</p>
+		
+		<img src="https://resumeworded.com/skills-and-keywords/img/frontend-developer.jpeg" id="slill2">	
+		
+	</section>
+	<section id="sec3">
+		<br>
+		<h1 id="edu">EDUCATION</h1>
+		<br>
+		<div id="educon">
+			<div class="cjc">
+				<h2 class="col">CONCEPT SENIOR SECONDARY SCHOOL</h2>
+				<h3 class="col1">2021-2023</h3>
+				<p class="col2"> stream-science subject-PCMB</p>
+			</div>
+			<div class="cjc">
+				<h2 class="col">LALIT CHANDRA BHARALI COLLEGE</h2>
+				<h3 class="col1">2024-2027</h3>
+				<p class="col2">Bachelor Of Science In Information Technology</p>
+			</div>
+		</div>
+		<br><br><br><br>
+	</section>
+ <style>
+       
 
     </style>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="logo.jpg" alt="Tohfalaya Logo" class="me-2" height="30px" />
-          <span>gift 2 U</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="product.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<section id="sec4">
+
+    <div class="container">
+        <h1 class="ha11">Contact Me</h1><br>
+        <p id="mail"><i class="fa-solid fa-paper-plane" id="aws"></i>arsifakhtar012@gmail.com</p><br><br>
+        <div class="contact-form">
+            <form action="" method="POST" id="contactform">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
-      </div>
-    </nav>
-
-    <!-- Product Section -->
-    <div class="product-container text-center mt-5">
-      <h1 class="fw-bold mb-4">🎁 Our Exclusive Gift Collection</h1>
-
-      <div class="product-grid" id="productGrid"></div>
+        <div class="social-icons">
+            <h2 id="social221">Follow Me</h2><br>
+            <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/ArsifAkhtar?t=Niihmp2bTGvHh8y-37iOvg&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/arsif__/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/arsif/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
     </div>
-
-    <footer>&copy; 2025 gift2u. All rights reserved.</footer>
-
-    <script>
-      let sheetURL =
-        "https://script.google.com/macros/s/AKfycbw5yAm6eG0jpBBYLUgLkhRliRpEEiPh6pjOPxXCzO5Baoi2GbnK79SxOr5-EwgHJPjdRw/exec"; // Replace this with your actual URL
-
-      function logProductClick(productName, productCode) {
-        fetch(sheetURL, {
-          method: "POST",
-          body: JSON.stringify({ productName, productCode }),
-          headers: { "Content-Type": "application/json" },
-        })
-          .then((response) => response.text())
-          .then((data) => console.log("Saved to Google Sheet:", data))
-          .catch((error) => console.error("Error:", error));
-      }
-
-      let products = [
-      { img: "90.jpg", name: "Personalized Necklace" },
-{ img: "89.jpg", name: "Personalized Necklace" },
-{ img: "88.jpg", name: "Personalized Necklace" },
-{ img: "87.jpg", name: "Personalized Necklace" },
-{ img: "86.jpg", name: "Personalized Necklace" },
-{ img: "85.jpg", name: "Personalized Necklace" },
-{ img: "84.jpg", name: "Personalized Necklace" },
-{ img: "83.jpg", name: "Personalized Necklace" },
-{ img: "82.jpg", name: "Personalized Necklace" },
-{ img: "81.jpg", name: "Personalized Necklace" },
-{ img: "80.jpg", name: "Personalized Necklace" },
-{ img: "79.jpg", name: "Personalized Necklace" },
-{ img: "78.jpg", name: "Personalized Necklace" },
-{ img: "77.jpg", name: "Personalized Necklace" },
-{ img: "76.jpg", name: "Personalized Necklace" },
-{ img: "75.jpg", name: "Personalized Necklace" },
-{ img: "74.jpg", name: "Personalized Necklace" },
-{ img: "73.jpg", name: "Personalized Necklace" },
-{ img: "72.jpg", name: "Personalized Necklace" },
-{ img: "71.jpg", name: "Personalized Necklace" },
-{ img: "70.jpg", name: "Personalized Necklace" },
-{ img: "60.jpg", name: "Personalized Necklace" },
-{ img: "59.jpg", name: "Personalized Necklace" },
-{ img: "57.jpg", name: "Personalized Necklace" },
-{ img: "56.jpg", name: "Personalized Necklace" },
-{ img: "55.jpg", name: "Personalized Necklace" },
-{ img: "54.jpg", name: "Personalized Necklace" },
-{ img: "53.jpg", name: "Personalized Necklace" },
-{ img: "52.jpg", name: "Personalized Necklace" },
-{ img: "51.jpg", name: "Personalized Necklace" },
-{ img: "50.jpg", name: "Personalized Necklace" },
-{ img: "49.jpg", name: "Personalized Necklace" },
-{ img: "47.jpg", name: "Personalized Necklace" },
-{ img: "46.jpg", name: "Personalized Necklace" },
-{ img: "45.jpg", name: "Personalized Necklace" },
-{ img: "44.jpg", name: "Personalized Necklace" },
-{ img: "43.jpg", name: "Personalized Necklace" },
-{ img: "42.jpg", name: "Personalized Necklace" },
-{ img: "41.jpg", name: "Personalized Necklace" },
-{ img: "40.jpg", name: "Personalized Necklace" },
-{ img: "39.jpg", name: "Personalized Necklace" },
-{ img: "38.jpg", name: "Personalized Necklace" },
-{ img: "37.jpg", name: "Personalized Necklace" },
-{ img: "36.jpg", name: "Personalized Necklace" },
-{ img: "35.jpg", name: "Personalized Necklace" },
-{ img: "34.jpg", name: "Personalized Necklace" },
-{ img: "33.jpg", name: "Personalized Necklace" },
-{ img: "32.jpg", name: "Personalized Necklace" },
-{ img: "31.jpg", name: "Personalized Necklace" },
-{ img: "30.jpg", name: "Personalized Necklace" },
-{ img: "29.jpg", name: "Personalized Necklace" },
-{ img: "28.jpg", name: "Personalized Necklace" },
-{ img: "27.jpg", name: "Personalized Necklace" },
-{ img: "26.jpg", name: "Personalized Necklace" },
-{ img: "25.jpg", name: "Personalized Necklace" },
-{ img: "24.jpg", name: "Personalized Necklace" },
-{ img: "23.jpg", name: "Personalized Necklace" },
-{ img: "22.jpg", name: "Personalized Necklace" },
-{ img: "21.jpg", name: "Personalized Necklace" },
-{ img: "20.jpg", name: "Personalized Necklace" },
-{ img: "19.jpg", name: "Personalized Necklace" },
-{ img: "18.jpg", name: "Personalized Necklace" },
-{ img: "17.jpg", name: "Personalized Necklace" },
-{ img: "16.jpg", name: "Personalized Necklace" },
-{ img: "15.jpg", name: "Personalized Necklace" },
-{ img: "14.jpg", name: "Personalized Necklace" },
-{ img: "13.jpg", name: "Personalized Necklace" },
-{ img: "12.jpg", name: "Personalized Necklace" },
-{ img: "11.jpg", name: "Personalized Necklace" },
-{ img: "10.jpg", name: "Personalized Necklace" },
-{ img: "9.jpg", name: "Personalized Necklace" },
-{ img: "8.jpg", name: "Personalized Necklace" },
-{ img: "7.jpg", name: "Personalized Necklace" },
-{ img: "6.jpg", name: "craft" },
-{ img: "3.jpg", name: "Personalized Necklace" },
-{ img: "1.jpg", name: "Personalized Necklace" }
-
-      ];
-
-      let phone = "+916001714988";
-      let productGrid = document.getElementById("productGrid");
-
-
-      function loadProducts() {
-    productGrid.innerHTML = "";
-    products.forEach((product, index) => {
-      let productCode = (index + 1).toString().padStart(3, "0");
-      let waMessage = `Hello, I'm interested in *${product.name}* (Product Code: *${productCode}*). Could you provide more details?`;
-      let waLink = `https://wa.me/${phone}?text=${encodeURIComponent(waMessage)}`;
-
-      let productHTML = `
-        <div class="product-card">
-          <img src="img/${product.img}" alt="${product.name}">
-          <h3>${product.name}</h3>
-          <p><strong>Price:</strong> ${product.price}</p>
-          <p><strong>Product Code:</strong> ${productCode}</p>
-          <p><strong>Custom Name Mug – A personalized ceramic mug with your name or message, perfect for daily coffee or tea lovers</strong></p>
-          <a href="${waLink}" class="btn" onclick="logProductClick('${product.name}', '${productCode}')">
-            <i class="fab fa-whatsapp"></i> Order on WhatsApp
-          </a>
-        </div>
-      `;
-      productGrid.innerHTML += productHTML;
+</section>
+<script type="text/javascript">
+    //slow animation of scroll
+    document.querySelectorAll('a.nav1').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
     });
-  }
+});
+    // Scroll to the top of the page on refresh
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
 
-      window.onload = loadProducts;
-    </script>
-  </body>
-</html>
+</script>
+
+
+
+
+</body>
+</html> 
