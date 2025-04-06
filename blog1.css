@@ -252,3 +252,7 @@ header{
         color: darkred;
        }
   /* Tablet View (768px and below) */
+        #gmail{
+        text-decoration: none;
+        color: white;
+       }
