@@ -119,13 +119,11 @@
       .product-grid {
         grid-template-columns: repeat(2, 1fr);
       }
-    }
-
-    @media (max-width: 480px) {
-      .product-grid {
-        grid-template-columns: 1fr;
+      .product-card img {
+      max-height: 150px;
       }
     }
+
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
@@ -239,9 +237,6 @@
     let currentProductName = "", currentProductCode = "";
 
     const products = [
-       { "img": "fb.jpg", "name": "1k followers", "price": "₹200 ", "description": "facebook followers non-drop life-time guarante" },
-            { "img": "fb.jpg", "name": "5k followers", "price": "₹900 ", "description": "facebook followers non-drop life-time guarante" },
-            { "img": "fb.jpg", "name": "60k minutes watch time", "price": "₹500 ", "description": "60 Minutes Facbook watch time" },
             { "img": "yt.jpg", "name": "50 subscriber", "price": "₹35", "description": "youtube subscriber | lifetime guarante" },
             { "img": "yt.jpg", "name": "100 subscriber", "price": "₹65", "description": "youtube subscriber  | lifetime guarante" },
             { "img": "yt.jpg", "name": "300 subscriber", "price": "₹190", "description": "youtube subscriber  | lifetime guarante" },
@@ -258,6 +253,9 @@
             { "img": "yt-watch-t.jpg", "name": "2k watch time", "price": "₹1800", "description": "youtube watchtime |contact on WhatsApp for more details." },
             { "img": "yt-watch-t.jpg", "name": "3k watch time", "price": "₹2700", "description": "youtube watchtime |contact on WhatsApp for more details." },
             { "img": "yt-watch-t.jpg", "name": "4k watch time", "price": "₹3500", "description": "youtube watchtime |contact on WhatsApp for more details." },
+            { "img": "fb.jpg", "name": "5k followers", "price": "₹900 ", "description": "facebook followers non-drop life-time guarante" },
+            { "img": "fb.jpg", "name": "60k minutes watch time", "price": "₹500 ", "description": "60 Minutes Facbook watch time" },
+            { "img": "fb.jpg", "name": "1k followers", "price": "₹200 ", "description": "facebook followers non-drop life-time guarante" },
             { "img": "ig.jpg", "name": "1k followers", "price": "₹200", "description": "instagram followers [non-drop] | lifetime refill." },
             { "img": "ig.jpg", "name": "10k followers", "price": "₹1900", "description": "instagram followers [non-drop] | lifetime refill." },
             { "img": "ig.jpg", "name": "1k likes", "price": "₹20", "description": "instagram likes [non-drop] | lifetime refill." },
